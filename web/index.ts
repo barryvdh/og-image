@@ -365,7 +365,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                         label: `Add Image ${images.length + 1}`,
                         onclick: () => {
                             const nextImage = images.length === 1
-                                ? 'https://cdn.jsdelivr.net/gh/remojansen/logo.ts@master/ts.svg'
+                                ? 'https://laravel.com/img/logomark.min.svg'
                                 : '';
                             setLoadingState({ images: [...images, nextImage] })
                         }
